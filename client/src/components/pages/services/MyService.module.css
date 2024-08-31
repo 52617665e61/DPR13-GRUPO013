@@ -1,0 +1,23 @@
+.my_service{
+    padding: 1em;
+    border-radius: 5px;
+    margin:0.5%
+}
+
+.my_service a{
+    width: 10em;
+    text-decoration: none;
+    border: none;
+    background-color:burlywood;
+    color:black;
+    padding: 0.6em 1em;
+    margin-right: 1em;
+    border: 2px solid black;
+    display:flex;
+    float: right ;
+}
+
+.my_service a:hover{
+    background-color: green;
+}
+    

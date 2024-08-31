@@ -1,0 +1,25 @@
+.addService {
+    padding: 1em;
+    border: 5px solid #880455;
+    border-radius: 5px;
+    width: 100%;
+    position: relative;
+    margin:0.5%;
+  }
+  
+  .addService h1 {
+    background-color: #000000;
+    color: #ee9003;
+    padding: 0.4em;
+    font-size: 2em;
+    margin-top: 0.5em;
+    width: 100%;
+    
+  }
+  
+  .addService p {
+    width: 100%;
+    padding-left: 2em;
+    padding-bottom: 0.5em;
+    
+  }
