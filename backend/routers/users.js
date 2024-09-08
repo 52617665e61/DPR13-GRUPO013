@@ -59,7 +59,9 @@ router.post('/login', async (req, res) => {
     const secret = process.env.secret;
 
     if(!user){
+        
         return res.status(400).send('The user not found');
+        
     }
 
     if(user &&  await argon2.verify(user.passwordHash, req.body.password)) {
@@ -72,7 +74,8 @@ router.post('/login', async (req, res) => {
             {expiresIn: '1w'}
         )
 
-        res.status(400).send({user: user.email, token: token});
+         res.send({user: user.email, token: token});
+         return token
     } else {
          res.status(400).send('Password wrong')
     }

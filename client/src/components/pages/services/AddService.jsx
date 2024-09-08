@@ -29,11 +29,13 @@ function AddService(){
 
     return(
         <Layout>
+        
         <div className={styles.addService}> 
             <h1>Adicionar um novo serviço</h1>
             <p>Preencha o formulário abaixo para estar adionando um novo serviço para sua gama de atividades.</p>
             <ServicesForm  submit={CreateService} btnText='Adicionar Serviço'/>
         </div>
+        
         </Layout>
     )
 }
