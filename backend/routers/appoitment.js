@@ -3,7 +3,8 @@ const { Service } = require('../models/services')
 const express = require('express');
 const router = express.Router();
 const mongoose = require('mongoose');
-const email = require('./sendEmail')
+
+
 
 
 //Get all appoitments

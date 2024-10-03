@@ -10,8 +10,6 @@ import Service from './components/pages/services/Service';
 import MyServices from './components/pages/services/MyService'
 import AddService from './components/pages/services/AddService'
 import ProtectedRoute from './utils/ProtectedRoutes';
-import Logout from './components/pages/users/Logout';
-import Navbar from './Layouts/Navbar';
 
 
 function App() {
